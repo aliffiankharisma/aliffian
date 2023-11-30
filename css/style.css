@@ -99,9 +99,6 @@ section {
 .hero {
     height: 100vh;
     width: 100%;
-    background: url( /img/background.png);
-    background-position: top right;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -353,55 +350,6 @@ header.sticky {
     cursor: pointer;
 }
 
-.contact-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4.2rem;
-}
-
-.contact-form form {
-    position: relative;
-    width: 600px;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    outline: none;
-    box-shadow: 0 0 5px var(--main-color);
-    background: #2d343f;
-    color: var(--text-color);
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-form input ::placeholder
-form textarea ::placeholder {
-    color: var(--other-color);
-    font-size: 15px;
-}
-
-form .send-btn {
-    display: inline-flex;
-    padding: 11px 26px;
-    background: var(--main-color);
-    color: var(--bg-color);
-    border: 2px solid var(--main-color);
-    border-radius: 8px;
-    font-size: 15px;
-    font-weight: 600;
-    transition: all .50s ease;
-    width: 25%;
-}form .send-btn:hover {
-    background: transparent;
-    color: var(--main-color);
-    box-shadow: 0 0 20px var(--main-color);
-    cursor: pointer;
-}
-
 .footer {
     padding: 22px 10%;
     background: var(--second-bg-color);
@@ -512,7 +460,7 @@ c {
     .navlist {
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -100%;
         width: 255px;
         min-height: 100vh;
         display: flex;

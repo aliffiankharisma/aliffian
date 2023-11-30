@@ -12,7 +12,7 @@ menu.onclick = () => {
     navlist.classList.toggle('active');
 };
 
-window.onclick = () => {
+window.onscroll = () => {
     menu.classList.remove('bx-x');
     navlist.classList.remove('active');
 };
